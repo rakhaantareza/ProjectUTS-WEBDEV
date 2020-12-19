@@ -1,0 +1,802 @@
+* {
+	padding: 0; 
+	margin: 0;
+}
+
+
+/* container */
+
+.container {
+	width: 1349px; 
+	margin: auto;
+}
+
+
+/* font */
+
+@font-face {
+	font-family: Made Tommy Medium;
+	src: url(font/medium.otf);
+}
+
+@font-face {
+	font-family: Made Tommy Regular;
+	src: url(font/regular.otf);
+}
+
+@font-face {
+	font-family: Made Tommy Thin;
+	src: url(font/thin.otf);
+}
+
+body {
+	font-family: 'Made Tommy Thin';
+}
+
+
+/* header */
+
+header {
+	height: 90px; 
+	overflow: hidden; 
+}
+
+header .kiri img {
+	width: 150px; 
+	height: 150px; 
+	margin: -30px 0 0 80px; 
+	float: left; 
+}
+
+header .kanan nav {
+	overflow: hidden; 
+	float: right; 
+	margin: 35px 80px 0 10px;
+	font-family: 'Made Tommy Regular';
+}
+
+header .kanan nav ul li {
+	list-style: none; 
+	float: left;
+}
+
+header .kanan nav ul li a {
+	text-decoration: none; 
+	color: black; 
+	padding: 3px 15px;
+	font-size: 15px;
+}
+
+header .kanan nav ul li a:hover {
+	color: orange; 
+	transition: all 0.3s ease-in-out;
+}
+
+
+/* image */
+
+.image {
+	position: relative; 
+	width: auto; 
+	margin: auto;
+}
+
+.image img {
+	position: relative; 
+	width: 1349px; 
+	height: auto; 
+	display: block;
+}
+
+.image .t1 h1 {
+	position: absolute; 
+	top: 30%; left: 50%; 
+	color: white; 
+	font-size: 60px;
+	transform: translate(-50%, -50%); 
+	white-space: nowrap; 
+	font-family: 'Made Tommy Medium';
+}
+
+.image .t1 h2 {
+	position: absolute;
+	top: 40%; left: 50%; 
+ 	color: white; 
+	font-size: 36px;
+	transform: translate(-50%, -50%); 
+	white-space: nowrap; 
+}
+
+.image .t1 hr {
+	position: absolute; 
+	top: 50%; left: 50%; 
+	color: white; 
+	width: 90px; 
+	height: 2px;
+	background-color: white; 
+	transform: translate(-50%, -50%);
+}
+
+.image .t2 p {
+	position: absolute;
+	top: 60%; left: 50%; 
+	color: white; 
+	font-size: 25px;
+	transform: translate(-50%, -50%);
+	text-align: center;
+}
+
+.image .t2 .t21 a {
+	position: absolute; 
+	top: 75%; left: 40%; 
+	color: black; 
+	font-family: Made Tommy Regular; 
+	background-color: yellow; 
+	font-size: 20px; 
+	padding: 20px 60px;
+	transform: translate(-50%, -50%); 
+	text-decoration: none; 
+	border: 2px; 
+	border-radius: 100px;
+}
+
+.image .t21 a:hover {
+	border: 2px; 
+	background-color: #AA8E00;
+	color: white; 
+	transition: background 1s ease; 
+}
+
+.image .t2 .t22 a {
+	position: absolute; 
+	top: 75%; left: 60%; 
+	color: white; 
+	font-family: Made Tommy Regular; 
+	font-size: 20px; 
+	transform: translate(-50%, -50%); 
+	padding: 20px 50px; 
+	text-decoration: none; 
+	border: 2px solid #FFFFFF; 
+	border-radius: 100px;
+}
+
+.image .t2 .t22 a:hover {
+	border: 2px; 
+	background-color: #AA8E00; 
+	color: white; 
+	transition: background 1s ease;
+}
+
+
+/* layer 1 */
+
+.layer1 {
+	position: relative; 
+	width: auto; height: 500px; 
+	background-color: whitesmoke; 
+	padding: 10px 10px 0 10px;
+}
+
+.layer1 .kiri1 {
+	width: 48%; 
+	float:left; 
+	margin: 10px 0 10px 10px; 
+	height: auto; 
+	margin-top: 50px;
+}
+
+.layer1 .kiri1 h1 {
+	font-size: 40px; 
+	margin-top: 10px; 
+	font-family: 'Made Tommy Medium';
+}
+
+.layer1 .kiri1 hr {
+	color: seagreen; 
+	width: 90px; 
+	height: 2px;
+	background-color: seagreen; 
+	margin: 20px 0;
+}
+
+.layer1 .kiri1 h2 {
+	margin: 20px 0; 
+	font-size: 19px; 
+	margin-top: 40px;
+}
+
+.layer1 .kiri1 p {
+	margin: 20px 0; 
+	font-size: 19px;
+	color: #333;
+}
+
+.layer1 .kiri1 a {
+	color: black; 
+	background-color: yellow; 
+	font-size: 20px; 
+	font-family: Made Tommy Regular;
+	padding: 20px 70px; 
+	text-decoration: none; 
+	border: 2px; 
+	border-radius: 100px;
+}
+
+.layer1 .kiri1 a:hover { 
+	border: 2px; 
+	background-color: #AA8E00; 
+	transition: background 1s ease; 
+	color: white;
+}
+
+.layer1 .kanan1 img {
+	width: 47%; 
+	height: 380px; 
+	float: right; 
+	padding-left: 30px; 
+	margin: 20px 20px 20px 0;
+	margin-top: 60px;
+}
+
+
+/* layer 2 */
+
+.layer2 h1 {
+	font-size: 40px; 
+	margin-top: 80px; 
+	text-align: center; 
+	font-family: 'Made Tommy Medium';
+}
+
+.layer2 hr {
+	color: seagreen; 
+	width: 90px; height: 2px;
+	background-color: seagreen; 
+	margin: 30px 630px 50px;
+}
+
+.layer2 h3 {
+	font-family: 'Made Tommy Regular'; 
+	font-size: 20px; 
+	text-align: left;
+}
+
+.layer2 p {
+	margin-bottom: 60px; 
+	font-size: 17px; 
+	margin-top: 20px;
+}
+
+.layer2 p,h3 {
+	width: 210px; 
+	margin-left: 85px;
+}
+
+.layer2 .kiri2 img {
+	width: 30px; 
+	height: 30px; 
+	float: left; 
+	padding: 6px 10px 0 10px; 
+	margin-left: 70px;
+}
+
+.layer2 .kiri2 { 
+	float: left; 
+	padding-right: 25px;
+	margin-top: 20px; 
+	text-align: justify;
+}
+
+.layer2 .tengah21 img {
+	width: 30px; 
+	height:30px; 
+	float: left; 
+	padding: 6px 10px 0 10px; 
+	margin-left: 50px;
+}
+
+.layer2 .tengah21 {
+	float: left; 
+	padding-right: 25px;
+	margin-top: 20px; 
+	text-align: justify;
+}
+
+.layer2 .tengah22 img {
+	width: 30px; 
+	height:30px; 
+	float: left; 
+	padding: 6px 10px 0 10px;
+	margin-left: 50px;
+}
+
+.layer2 .tengah22 {
+	float: left; 
+	padding-right: 25px;
+	margin-top: 20px; 
+	text-align: justify;
+}
+
+.layer2 .kanan2 img {
+	width: 30px; 
+	height:30px; 
+	float: left; 
+	padding: 6px 10px 0 10px; 
+	margin-left: 50px;
+}
+
+.layer2 .kanan2 {
+	float: left; 
+	padding-right: 25px;
+	margin-top: 20px; 
+	text-align: justify;
+}
+
+
+/* layer 3 */
+
+.layer3 {
+	background: whitesmoke; 
+	overflow: hidden; 
+	width: 1349px; 
+	height: 600px; 
+	margin-top: 530px;
+}
+
+.layer3 .kiri3 {
+	width: 574px; 
+	float: left; 
+	margin-left: 30px; 
+	margin-top: 50px;
+	padding-left: 60px;
+}
+
+.layer3 .kiri3 h1 {
+	font-size: 40px; 
+	margin-top: 10px; 
+	font-family: 'Made Tommy Medium';
+}
+
+.layer3 .kiri3 hr {
+	color: seagreen; 
+	width: 90px; 
+	height: 2px;
+	background-color: seagreen; 
+	margin: 20px 0;
+}
+
+.layer3 .kiri3 .text3 {
+	background: white; 
+	border: 2px solid white; 
+	border-radius: 20px; 
+	padding: 20px 40px 40px 20px; 
+	position: relative; 
+	width: 400px; 
+	margin-top: 40px;
+	border-right: 70px solid black;
+}
+
+.layer3 .kiri3 .text3 p {
+	width: 400px; 
+	padding: 15px; 
+	font-size: 22px;
+}
+
+.layer3 .kiri3 .me3 img {
+	width: 100px; 
+	height:100px; float: left; 
+	position: relative; 
+	top: 40%; 
+	left: 10%; 
+	color: black; 
+	transform: translate(-45%, -75%); 
+	white-space: nowrap;  
+}
+
+.layer3 .kiri3 .me3 img {
+	margin-left: 10px; 
+	clip-path: circle(35%)
+}
+
+
+.layer3 .kiri3 .me3 h2 {
+	padding-top: 20px; 
+	margin-left: 100px; 
+	font-size: 20px; 
+	font-family: 'Made Tommy Regular';
+}
+
+.layer3 .kiri3 .me3 h3 {
+	margin-left: 100px; 
+	font-size: 19px; 
+	font-family: 'Made Tommy Regular';
+}
+
+.layer3 .kanan3 {
+	float: right; 
+	margin-top: 20px; 
+	text-align: justify;
+}
+
+
+/* layer 4 */
+
+.layer4 h1 {
+	font-size: 40px; 
+	margin-top: 80px; 
+	text-align: center; 
+	font-family: 'Made Tommy Medium';
+}
+
+.layer4 hr {
+	color: seagreen; 
+	width: 90px; height: 2px;
+	background-color: seagreen; 
+	margin: 30px 630px 50px;
+}
+
+.layer4 .foto {
+	width: 350px; 
+	float: left; 
+	margin: 0 15px 10px 18px;
+}
+
+.layer4 .foto img {
+	width: 100%; 
+	height: 450px; 
+	border-radius: 30px; 
+	margin-left: 100px;
+}
+
+.layer4 .judul h4 {
+	font-size: 16px; 
+	color: black; 
+	text-align: center;
+	margin-left: 145px; 
+	margin-top: -30px;
+}
+
+.layer4 .foto .judul img {
+	width: 30px; 
+	height: 30px; 
+	margin-top: 10px; 
+	padding-left: 50px;
+}
+
+.layer4 .foto a,h4 {
+	text-decoration: none; 
+	width: 300px;
+	color: black;
+}
+
+.layer4 .ket {
+	margin-left: 120px; 
+	width: 300px; 
+	text-align: center; 
+	margin-top: 20px;
+	font-size: 20px;
+	margin-bottom: 70px;
+}
+
+.title4 {
+	overflow: hidden; 
+	width: 1349px; 
+	margin-top: 530px;
+}
+
+.title4 .a4 {
+	margin: 50px 510px 50px;
+}
+
+.title4 .a4 a {
+	color: black; 
+	background-color: yellow; 
+	font-size: 20px; 
+	font-family: Made Tommy Regular;
+	padding: 20px 70px; 
+	text-decoration: none; 
+	border: 2px;
+	border-radius: 100px;
+	margin: 20px;
+}
+
+.title4 .a4 a:hover { 
+	border: 2px; 
+	background-color: #AA8E00; 
+	transition: background 1s ease; 
+	color: white;
+}
+
+
+/* layer 5 */
+
+.layer5 {
+	position: relative; 
+	width: auto; 
+	margin: auto;
+	margin-top: 50px;
+}
+
+.layer5 img {
+	position: relative; 
+	width: 1349px; 
+	height: 250px; 
+	display: block;
+}
+
+.layer5 .t51 h1 {
+	position: absolute; 
+	left: 22%; top: 45%;
+	color: white;
+	font-size: 40px;
+	transform: translate(-50%, -50%); 
+	white-space: nowrap;
+	font-family: 'Made Tommy Medium';
+}
+
+
+.layer5 .t51 h2 {
+	position: absolute;
+	top: 65%; left: 35%; 
+ 	color: white; 
+	font-size: 22px;
+	transform: translate(-50%, -50%); 
+	white-space: nowrap;
+	margin-left: 20px;
+}
+
+.layer5 .t52 a {
+	position: absolute; 
+	top: 50%; left: 83%; 
+	color: white; 
+	font-family: Made Tommy Regular; 
+	font-size: 20px; 
+	transform: translate(-50%, -50%); 
+	padding: 20px 50px;
+	text-decoration: none; 
+	border: 2px solid #FFFFFF; 
+	border-radius: 100px;
+}
+
+.layer5 .t52 a:hover {
+	border: 2px; 
+	background-color: #AA8E00; 
+	color: white; 
+	transition: background 1s ease;
+}
+
+
+/* layer 6 */
+
+.layer6 {
+	width: auto;
+	overflow: hidden;
+}
+
+.layer6 h1 {
+	font-size: 40px; 
+	margin-top: 80px; 
+	text-align: center; 
+	font-family: 'Made Tommy Medium';
+}
+
+.layer6 hr {
+	color: seagreen; 
+	width: 90px; height: 2px;
+	background-color: seagreen; 
+	margin: 30px 630px 50px;
+}
+
+.photo6 {
+	width: 370px;
+}
+
+.photo6 img {
+	width: 400px; 
+	height: 250px;
+}
+
+.photo6:hover img {
+	opacity: 0.3;  
+	top: 30%; left: 5%; 
+	right: 5%;
+}
+
+.photo6 {
+	float: left; 
+	margin-left: 45px; 
+	margin-bottom: 50px; 
+	margin-right: 15px; 
+}
+
+.photo6 .keterangan {
+	text-align: center;
+}
+
+.photo6 {
+	position: relative;
+}
+
+.photo6 h2 {
+	margin-left: 150px;
+	font-size: 24px;
+	font-family: "Made Tommy Medium";
+}
+
+.photo6 .nomor {
+	position: absolute;
+}
+
+.photo6 .keterangan{
+	position: absolute;  
+	top: 30%; left: 5%; 
+	right: 5%; display: none;
+}
+
+.photo6:hover .keterangan {
+	position: absolute; 
+	top: 30%; left: 5%;
+	right: 5%; display: block;
+}
+
+.photo6 .judul img {
+	width: 30px;
+	height: 30px;
+}
+
+.photo6 .judul h1, a {
+	font-size: 20px; 
+	text-decoration: none; 
+	color: black;
+}
+
+.photo6 .keterangan {
+	font-size: 15px black;
+	font-family: "Made Tommy Thin";
+	margin-top: 30px; font-weight: bold;
+}
+
+.title6 {
+	overflow: hidden; 
+	width: 1349px; 
+	margin-top: 530px;
+}
+
+.title6 .a6 {
+	margin: 50px 0 100px 0;
+	text-align: center;
+}
+
+.title6 .a6 a {
+	color: black; 
+	background-color: yellow; 
+	font-size: 20px; 
+	font-family: Made Tommy Regular;
+	padding: 20px 50px; 
+	text-decoration: none; 
+	border: 2px;
+	border-radius: 100px;
+	margin: 20px;
+}
+
+.title6 .a6 a:hover {
+	border: 2px;
+	background-color: #AA8E00;
+	transition: background 1s ease; 
+	color: white;
+}
+
+
+/* footer */
+
+.foot {
+	position: relative;
+	width: auto; height: 550px;
+	background-color: #000;
+	padding: 10px 10px 0 10px;
+	color: white;
+}
+
+.foot .kirifoot {
+	width: 48%; 
+	float:left; 
+	margin: 10px 0 10px 10px; 
+	height: auto; 
+	margin-top: 50px;
+	margin-left: 50px;
+}
+
+.foot .kirifoot h1 {
+	font-size: 40px; 
+	margin-top: 10px; 
+	font-family: 'Made Tommy Medium';
+}
+
+.foot .kirifoot h2 {
+	font-size: 35px; 
+	margin-top: 5px;
+	font-family: 'Made Tommy Thin';
+}
+
+.foot .kirifoot hr {
+	color: seagreen;
+	width: 90px;
+	height: 2px;
+	background-color: seagreen;
+	margin: 30px 0;
+}
+
+.foot .kirifoot p {
+	margin: 20px 0;
+	font-size: 24px;
+	margin-top: 40px;
+}
+
+.foot .subs a {
+	color: black; 
+	background-color: yellow; 
+	font-size: 12px; 
+	font-family: Made Tommy Regular;
+	padding: 10px 20px; 
+	text-decoration: none; 
+	border: 2px;
+	border-radius: 5px;
+}
+
+.foot .subs a:hover {
+	border: 2px;
+	background-color: #AA8E00;
+	transition: background 1s ease; 
+	color: white;
+}
+
+.foot .kananfoot {
+	width: 550px;
+	float: right;
+	padding-right: 50px;
+	margin: 10px 10px 10px 0;
+}
+
+.foot .kananfoot h1 {
+	font-size: 40px; 
+	margin-top: 10px; 
+	font-family: 'Made Tommy Medium';
+	margin-top: 50px;
+}
+
+.foot .kananfoot hr {
+	color: seagreen;
+	width: 90px;
+	height: 2px;
+	background-color: seagreen;
+	margin: 30px 0;
+}
+
+.foot .kananfoot p {
+	margin: 50px 0;
+	font-size: 18px;
+	margin-top: 40px;
+}
+
+.foot .kananfoot img {
+	width: 20px; 
+	height: 20px; 
+	padding-right: 20px;
+	float: left;
+	margin-top: 15px;
+}
+
+/* form */
+
+.foot form {
+	padding-left: 50px;
+}
+
+.foot .itemform .formfoot input {
+	width: 550px;
+	border-radius: 5px;
+}
+
+.foot .itemform .formfoot input.inputText {
+	padding: 10px;
+}

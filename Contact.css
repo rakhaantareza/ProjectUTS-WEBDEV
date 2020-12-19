@@ -1,0 +1,257 @@
+* {
+	padding: 0; 
+	margin: 0;
+}
+
+
+/* container */
+
+.container {
+	width: 1349px; 
+	margin: auto;
+}
+
+
+/* font */
+
+@font-face {
+	font-family: Made Tommy Medium;
+	src: url(font/medium.otf);
+}
+
+@font-face {
+	font-family: Made Tommy Regular;
+	src: url(font/regular.otf);
+}
+
+@font-face {
+	font-family: Made Tommy Thin;
+	src: url(font/thin.otf);
+}
+
+body {
+    font-family: 'Made Tommy Thin';
+    overflow-x: hidden;
+}
+
+
+/* header */
+
+header {
+	height: 90px; 
+	overflow: hidden; 
+}
+
+header .kiri img {
+	width: 150px; 
+	height: 150px; 
+	margin: -30px 0 0 80px; 
+	float: left; 
+}
+
+header .kanan nav {
+	overflow: hidden; 
+	float: right; 
+	margin: 35px 80px 0 10px;
+	font-family: 'Made Tommy Regular';
+}
+
+header .kanan nav ul li {
+	list-style: none; 
+	float: left;
+}
+
+header .kanan nav ul li a {
+	text-decoration: none; 
+	color: black; 
+	padding: 3px 15px;
+	font-size: 15px;
+}
+
+header .kanan nav ul li a:hover {
+	color: orange; 
+	transition: all 0.3s ease-in-out;
+}
+
+hr {
+    width: 1150px;
+    margin-left: 100px;
+    margin-top: 20px;
+    color: white;
+}
+
+.navbar {
+    margin: 20px;
+    margin-left: 100px;
+    font-size: 13px;
+}
+
+.navbar a {
+    text-decoration: none; 
+    color: grey;
+}
+
+.navbar a:hover {
+    color: lightgray; 
+    transition: all 0.25s ease-in-out;
+}
+
+
+/* foto */
+
+.lay1con .image {
+	position: relative; 
+	width: auto; 
+    margin: auto;
+}
+
+.lay1con .image img {
+	position: relative; 
+	width: 1349px; 
+	height: 200px; 
+    display: block;
+}
+
+.lay1con .title1 h1{
+    position: relative; 
+    font-size: 40px;
+    font-family: "Made Tommy Regular";
+    top: 50%; left: 55%;  
+    color: white; 
+    transform: translate(-50%, -250%); 
+    white-space: nowrap;
+}
+
+
+/* Table */
+
+.lay2con iframe {
+    width: 700px;
+    height: 340px;
+    margin-left: 340px;
+    border-style: none;
+}
+
+/* footer */
+
+.lay3con {
+    position: relative;
+	width: 1349px; height: 700px;
+    background-color: whitesmoke;
+    float: left;
+}
+
+/* kiri */
+.lay3con .kiri3 {
+    width: 570px; 
+	height: 210px; 
+    background-color: #333;
+    padding: 70px 50px;
+}
+
+.lay3con .kiri3 img {
+    width: 230px; 
+    height: 230px; 
+    padding-left: 20px;
+    display: block;
+    float: left;
+}
+
+.lay3con .kiri3 .profil {
+    float: right; 
+    font-size: 15px;
+    color: white;
+    margin-top: 20px;
+    margin-right: 50px;
+}
+
+.profil h2 {
+    margin-top: 10px;
+    font-size: 30px;
+    font-family: 'Made Tommy Regular';
+}
+
+.profil h2,p {
+    margin-left: 25px;
+}
+
+.profil a {
+    text-decoration: none; 
+    color: white;
+    margin-right: 20px;
+    font-size: 15px;
+}
+
+.profil a:hover { 
+    color: yellow;
+    transition: all 0.25s ease-in-out;
+}
+
+
+/* kanan */
+.lay3con .kanan3 {
+    width: 570px;
+	float: right;
+    background-color: whitesmoke;
+    padding: 70px 0 20px 100px;
+    margin-top: -700px;
+}
+
+.lay3con .kanan3 h1 {
+    font-size: 40px; 
+	font-family: 'Made Tommy regular';
+}
+
+.lay3con .kanan3 hr {
+	color: seagreen;
+	width: 90px;
+	height: 2px;
+	background-color: seagreen;
+	margin: 30px 0;
+}
+
+.lay3con .kanan3 p {  
+    font-family: 'Made Tommy regular';
+    margin-left: 0;
+}
+
+.itemform .form1 input {
+    margin: 2px; 
+    line-height: 30px;
+    width: 415px;
+}
+
+.itemform .form1 input.inputText {
+    padding: 0 0 0 10px;
+    font-family: 'Made Tommy Thin';
+    font-size: 12px;
+    border-color: lightgrey;
+}
+
+.itemform .form2 textarea {
+    padding: 10px 0 0 10px;
+    font-family: 'Made Tommy Thin';
+    font-size: 12px;
+    border-color: lightgrey;
+    margin-bottom: 20px;
+}
+
+.lay3con .send a {
+	color: black; 
+	background-color: yellow; 
+	font-size: 12px; 
+	font-family: Made Tommy Medium;
+	padding: 10px 25px; 
+	text-decoration: none; 
+	border: 2px;
+    border-radius: 5px;
+}
+
+.lay3con .send a:hover {
+	border: 2px;
+	background-color: #AA8E00;
+	transition: background 1s ease; 
+	color: white;
+}
+
+

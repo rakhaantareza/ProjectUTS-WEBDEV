@@ -1,0 +1,44 @@
+table {
+	font-family: "Arca Majora 3 Bold";
+}
+
+table, th, td {
+	border: 1px solid blue;
+}
+
+caption {
+	background-color: black; color: white; font-size: 26px;
+	padding: 10px; font-family: Heavitas;
+}
+
+th, td {
+	padding: 5px 25px;
+}
+
+thead {
+	background-color: steelblue; color: silver;
+}
+
+tbody {
+	background-color: silver;
+}
+
+td {
+	color: blue;
+}
+
+tfoot {
+	background-color: seagreen; color: white;
+}
+
+tbody tr td:nth-child(2) {
+	text-align: center;
+}
+
+tbody tr td:nth-child(3), tbody tr td:nth-child(4)  {
+	text-align: right;
+}
+
+tr:nth-child(even) {
+	background-color: white;
+}
